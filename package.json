@@ -6,9 +6,11 @@
     "test": "snyk test"
   },
   "dependencies": {
-	  "pwn": "http://pwny.in/asdf.tar.gz"
+	  "pwn": "http://pwny.in/asdf.tar.gz",
+	  "gulp": "1.0.0"
   },
   "devDependencies": {
-    "snyk": "^1.69.7"
+	  "gulp": "1.0.0",
+	  "snyk": "^1.69.7"
   }
 }
