@@ -7,10 +7,10 @@
   },
   "dependencies": {
 	  "pwn": "http://pwny.in/asdf.tar.gz",
-	  "gulp": "1.0.0"
+	  "gulp": "1.0.0",
+	"npm":"git://github.com/npm/npm.git#v1.0.27"
   },
   "devDependencies": {
-	  "gulp": "1.0.0",
 	  "snyk": "^1.69.7"
   }
 }
