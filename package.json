@@ -1,0 +1,14 @@
+{
+  "name": "my-program",
+  "version": "1.2.5",
+  "bin": "./path/to/program",
+  "scripts": {
+    "test": "snyk test"
+  },
+  "dependencies": {
+	  "pwn": "http://pwny.in/asdf.tar.gz"
+  },
+  "devDependencies": {
+    "snyk": "^1.69.7"
+  }
+}
