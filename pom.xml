@@ -93,8 +93,8 @@
 
   <dependencies>
     <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
+      <groupId>pwny</groupId>
+      <artifactId>pwny</artifactId>
       <version>3.8.1</version>
       <scope>test</scope>
     </dependency>
@@ -127,27 +127,6 @@
           <groupId>org.hibernate</groupId>
           <artifactId>ejb3-persistence</artifactId>
           <version>1.0.1.GA</version>
-      </dependency>
-      <dependency>
-          <groupId>mysql</groupId>
-          <artifactId>mysql-connector-java</artifactId>
-          <version>5.1.14</version>
-      </dependency>
-      <dependency>
-          <artifactId>slf4j-api</artifactId>
-          <groupId>org.slf4j</groupId>
-          <type>jar</type>
-          <version>1.6.1</version>
-      </dependency>
-      <dependency>
-          <groupId>org.slf4j</groupId>
-          <artifactId>log4j-over-slf4j</artifactId>
-          <version>1.6.1</version>
-      </dependency>
-      <dependency>
-          <groupId>org.slf4j</groupId>
-          <artifactId>slf4j-simple</artifactId>
-          <version>1.6.1</version>
       </dependency>
   </dependencies>
   
