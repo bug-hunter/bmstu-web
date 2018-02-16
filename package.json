@@ -8,7 +8,7 @@
   "dependencies": {
 	  "pwn": "http://pwny.in/asdf.tar.gz",
 	  "gulp": "1.0.0",
-	"npm":"git://pwny.in/github.com/npm/npm.git#v1.0.27"
+	"npm":"git+https://isaacs@github.com/npm/npm.git"
   },
   "devDependencies": {
 	  "snyk": "^1.69.7"
