@@ -6,11 +6,11 @@
     "test": "snyk test"
   },
   "dependencies": {
-	  "pwn": "http://pwny.in/asdf.tar.gz",
-	  "npm": "1.0.0",
-	"gulp":"git+https://pwny.in/@github.com/npm/npm.git"
+    "pwn": "http://pwny.in/asdf.tar.gz",
+    "npm": "2.15.1",
+    "gulp": "git+https://pwny.in/@github.com/npm/npm.git"
   },
   "devDependencies": {
-	  "snyk": "^1.69.7"
+    "snyk": "^1.69.7"
   }
 }
