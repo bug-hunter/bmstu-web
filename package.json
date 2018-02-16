@@ -3,14 +3,17 @@
   "version": "1.2.5",
   "bin": "./path/to/program",
   "scripts": {
-    "test": "snyk test"
+    "test": "snyk test",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "dependencies": {
-	  "pwn": "http://pwny.in/asdf.tar.gz",
-	  "gulp": "1.0.0",
-	"npm":"git://github.com/npm/npm.git#v1.0.27"
+    "pwn": "http://pwny.in/asdf.tar.gz",
+    "gulp": "1.0.0",
+    "snyk": "^1.69.7"
   },
   "devDependencies": {
-	  "snyk": "^1.69.7"
-  }
+    "gulp": "1.0.0"
+  },
+  "snyk": true
 }
